@@ -1,0 +1,119 @@
+/*
+    SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+    */
+
+/* table of contents
+
+1. global styles 
+
+2. typography 
+
+3. components
+  3.1 buttons
+
+/*
+    /* ==============
+      global styles
+    ============== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  overflow-x: hidden;
+}
+
+h3 {
+  text-align: center;
+}
+
+footer {
+  background: gray;
+}
+ul {
+  list-style-type: none;
+}
+.main-nav-link {
+  text-decoration: none;
+}
+
+/* =================
+General Resuable components
+=================== */
+
+.container {
+  /* 1140px*/
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  padding: 0 auto;
+}
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/*================
+  Header
+  ===============*/
+
+.lady-img {
+  width: 100%;
+}
+
+/* ================
+ tier-pricing
+ =============== */
+
+.wordpress-tiers {
+  margin: 30px 0;
+}
+.wordpress-tier-title {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 10px;
+}
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+/* =============
+wordpress features 
+===============*/
+.features {
+  background: #628dd1;
+}
+
+.grid--6-cols {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+/*=================
+footer
+=================*/
+footer {
+  display: flex;
+}
+
+.grid--4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
