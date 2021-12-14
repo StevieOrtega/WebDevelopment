@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -51,6 +51,10 @@ ul {
   list-style-type: none;
 }
 .main-nav-link {
+  text-decoration: none;
+}
+a:link {
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -72,9 +76,52 @@ General Resuable components
 /*================
   Header
   ===============*/
+header {
+  margin: 10px 0;
+}
 
 .lady-img {
   width: 100%;
+}
+
+/*================
+  main navbar
+  ===============*/
+
+.main-nav {
+  margin: 10px 0;
+}
+.main-nav-bar {
+  display: flex;
+  gap: 30px;
+}
+
+/*================
+  image field
+  ===============*/
+.image-textbox {
+  position: relative;
+  text-align: center;
+
+  color: white;
+}
+.small-imagetext {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 200;
+  top: 8px;
+  left: 16px;
+}
+.big-imagetext {
+  position: absolute;
+  top: 60px;
+  left: 16px;
+  font-size: 62px;
+}
+.para-imagetext {
+  position: absolute;
+  top: 350px;
+  left: 16px;
 }
 
 /* ================
@@ -115,5 +162,5 @@ footer {
 
 .grid--4-cols {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 80px);
 }
