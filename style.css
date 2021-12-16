@@ -42,7 +42,8 @@ body {
 
 h3 {
   text-align: center;
-  font-size: 22px;
+  font-size: 62px;
+  margin-bottom: 50px;
 }
 
 footer {
@@ -195,6 +196,19 @@ wordpress features
 ===============*/
 .features {
   background: #628dd1;
+  color: white;
+  font-family: "Source Serif Pro", sans-serif;
+}
+.bi {
+  font-size: 32px;
+  color: black;
+}
+.features-headline {
+  font-size: 44px;
+}
+.features-text {
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 .grid--6-cols {
