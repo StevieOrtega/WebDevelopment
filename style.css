@@ -42,6 +42,7 @@ body {
 
 h3 {
   text-align: center;
+  font-size: 22px;
 }
 
 footer {
@@ -56,6 +57,10 @@ ul {
 a:link {
   font-size: 14px;
   text-decoration: none;
+  color: black;
+}
+p {
+  display: block;
 }
 
 /* =================
@@ -108,19 +113,22 @@ header {
 .small-imagetext {
   position: absolute;
   text-transform: uppercase;
-  font-weight: 200;
-  top: 8px;
+  font-size: 18px;
+  top: 30px;
   left: 16px;
 }
 .big-imagetext {
   position: absolute;
+  font-family: "Source Serif Pro", sans-serif;
   top: 60px;
   left: 16px;
   font-size: 62px;
 }
 .para-imagetext {
   position: absolute;
+  font-size: 22px;
   top: 350px;
+  line-height: 1.5;
   left: 16px;
 }
 
@@ -130,16 +138,44 @@ header {
 
 .wordpress-tiers {
   margin: 30px 0;
+  background-color: #fff;
+}
+.wordpress {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 70px;
 }
 .wordpress-tier-title {
-  display: grid;
-  justify-items: center;
+  font-family: "Source Serif Pro", sans-serif;
+  font-size: 60px;
+
   margin-bottom: 10px;
+}
+.wordpress-tier-sentence {
+  font-size: 22px;
+}
+
+.pricing-tiers {
+  background-color: #fbfbfb;
+  border: 1px solid #e6e6e6;
+  color: #1d2a3b;
+}
+.tier-list-text li,
+.tier-list-text p {
+  font-size: 20px;
+  margin: 10px;
+}
+.pricing-text {
+  font-family: "Source Serif Pro", sans-serif;
+  font-size: 35px;
+  margin: 20px;
 }
 .grid--3-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+  gap: 40px;
 }
 
 /* =============
