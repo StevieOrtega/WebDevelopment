@@ -62,6 +62,12 @@ a:link {
 p {
   display: block;
 }
+section {
+  margin: 200px 0;
+}
+.features {
+  padding: 200px 0;
+}
 
 /* =================
 General Resuable components
@@ -137,44 +143,50 @@ header {
  =============== */
 
 .wordpress-tiers {
-  margin: 30px 0;
+  margin: 50px 0;
   background-color: #fff;
 }
 .wordpress {
-  display: grid;
-  justify-content: center;
-  align-content: center;
   margin-bottom: 70px;
 }
 .wordpress-tier-title {
   font-family: "Source Serif Pro", sans-serif;
   font-size: 60px;
-
   margin-bottom: 10px;
 }
+
 .wordpress-tier-sentence {
   font-size: 22px;
+}
+.wordpress-tier-title,
+.wordpress-tier-sentence {
+  text-align: center;
 }
 
 .pricing-tiers {
   background-color: #fbfbfb;
   border: 1px solid #e6e6e6;
   color: #1d2a3b;
+  padding: 0 10px;
 }
-.tier-list-text li,
-.tier-list-text p {
-  font-size: 20px;
-  margin: 10px;
+.tier-list-text {
+  padding-left: 0;
+  margin: 10px 0;
+  line-height: 1.5;
 }
+
 .pricing-text {
   font-family: "Source Serif Pro", sans-serif;
   font-size: 35px;
-  margin: 20px;
+  text-align: center;
+}
+.btn-pricing {
+  display: flex;
+  justify-content: center;
 }
 .grid--3-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
   gap: 40px;
 }
 
